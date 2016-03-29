@@ -13,6 +13,8 @@ module.exports = function(options, imports, register) {
   var transports = {};
   var loggers = {};
 
+  log(winston.transports);
+
   winston.handleExceptions(new (File)({
     colorize: true,
     json: true,
