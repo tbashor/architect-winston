@@ -1,0 +1,39 @@
+{
+  "name": "architect-winston",
+  "description": "Architect.js plugin to expose the winston library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./plugin.js",
+  "keywords": [
+    "winston",
+    "logging",
+    "sysadmin",
+    "tools",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [
+      "debug"
+    ],
+    "provides": [
+      "logger"
+    ]
+  },
+  "dependencies": {
+    "winston": "2.2.0"
+  },
+  "readme": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbashor/architect-winston.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tbashor/architect-winston/issues"
+  },
+  "homepage": "https://github.com/tbashor/architect-winston#readme"
+}
